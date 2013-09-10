@@ -3,4 +3,4 @@
 
 Laborationer i kursen 1ik415
 
-Skapa en sida till labb.
+Skapa en sida till labb..
