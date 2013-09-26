@@ -1,0 +1,155 @@
+body {background-color:#33312A;
+
+} 
+
+#header {
+    border: 2px solid black;
+    background-color: #9E9782;
+    text-align: center;
+    background-image: url(http://hotel-bachkovo.com/images/Wallpapers-room_com___Hardwood_w_Lights_by_zyklophon_1920x1200.jpg); 
+    background-repeat: repeat;
+    width: 1000px;
+    float: left;
+
+}
+
+#border {
+    border-top: 2px solid #9E9782;
+    border-bottom: 2px solid #9E9782;
+    
+    
+}
+
+#content {
+    border: 2px solid black;
+    width: 600px;
+    float: left;
+    background-color: #FFD086;
+    padding: 2px;
+    background-image: url(http://fc04.deviantart.net/images/i/2003/46/e/8/old_paper.jpg);
+    
+}
+
+#navigation {
+    border: 2px solid black;
+    width: 200px;
+    float: left;
+}
+
+#footer {
+    border: 2px solid black;
+    float: left;
+    background-color: #FFD086;
+    width: 1000px;
+    text-align: center;
+
+}
+
+#container {
+    overflow: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #33312A;
+    padding: 10px;
+    background-image: url(http://www.picwals.com/static/wallpaper/2560x1600/hd-wallpapers-dark-brown-wallpaper-full-jakub-nowaczyk-wood-with-2560x1600-wallpaper.jpg); 
+    background-repeat: repeat;
+}
+
+#meny {
+    margin: 0; 
+    padding: 0; 
+    width: 200px; 
+    list-style-type: none; 
+    font-size: 70%;
+    font-family: arial;
+    background: #736C58; 
+    border-bottom: 1px solid #0F0D09;
+ 
+}
+
+#meny a{ 
+    display: block; 
+    width: auto; 
+    height: 100%; 
+    padding-left: 0.25em; 
+    padding-top: 0.25em; 
+    padding-bottom: 0.25em; 
+    text-decoration: none;
+    border-top: 1px solid #0F0D09; 
+    border-right: 1px solid #0F0D09; 
+    border-left: 1px solid #0F0D09;
+    
+}
+ 
+#meny a:link{color: #ffffff;}
+
+#meny a:visited{color: #ffffff;}
+
+#meny a:hover{background: #F7CF8B;}
+
+#meny a:active{background-color: black;}
+
+#meny a:focus{color: green;
+
+}
+
+.active {
+        background-color: black;
+        text-align: right;
+}
+
+h4 {font-family: arial;
+
+}
+
+h2 {font-family: arial;
+    text-align: center;
+    background-image: url(http://graphichive.net/uploaded/t_1313321102.jpg); 
+    background-repeat: no-repeat;
+    background-position: 10% 20%;
+    background-size: 20px 20px;
+}
+
+h1 {font-family: arial;
+
+
+}
+
+h5 {font-family: arial;
+    font-style: italic;
+    text-align: right;
+
+}
+
+.bild {
+    width: 150px;
+    height: 160px;
+    float: right;
+    border: 5px solid black;
+}
+
+.table {
+    background-color: #93FF4A;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: arial;
+    margin: 0 auto;
+
+
+}
+
+.row {
+    background-color: #E7FFC8;
+}
+ 
+.cell {
+    background-color: #CEFF98;
+}
+
+.cel11 {
+    background-color: #E7FFC8;
+}
+
+.video {
+    margin: 50px;
+}

@@ -1,38 +1,79 @@
 <!doctype html>
 <html>
 <head>
+<meta charset="utf-8"/>
 <title>Startsida</title>
+<link rel="stylesheet" href="css/pics/style.css" />
 </head>
-<body><h1>Paulinas sida</h1>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Paulinas sida</h1>
+        </div>
+    
+    <div id="navigation">
+        <ul id="meny">
+            <li><a href="index.html" class="active">Start</a></li>
+            <li><a href="Pages/Laborationer.html">Laborationer</a></li>
+            <li><a href="Pages/presentation.html">Presentation</a></li>
+            <li><a href="Pages/Kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
 
-<ul>
-<li><a href="index.html">Start</a></li>
-<li><a href="Pages/Laborationer.html">Laborationer</a></li>
-<li><a href="Pages/presentation.html">Presentation</a></li>
-<li><a href="Pages/Kontakt.html">Kontakt</a></li>
-</ul>
+    <div id="content">
+        <h1>Kursblogg</h1>
+            <p><h2>Mitt första inlägg</h2></p>
+            <div id="border">
+                <h4>Hej detta är min sida</h4>
+                <h5>Skrivet 2013-09-10</h5>
+            </div>
+        <br />
 
-<h1>Kursblogg</h1>
-<p><h2>Mitt första inlägg</h2></p>
-<h4>Hej detta är min sida</h4>
-<h5>Skrivet 2013-09-10</h5>
-<br />
+        
+            <h2 id="#vector">Vectorbild</h2>
+                <div id="border">
+                    <h4>En vector bild jag har gjort</h4>
+                    <img src="pics/bird.svg" alt="vector"/>
+                    <h5>Skrivet 2013-09-18</h5>
+                </div>
+        <br />
+        
+        <h2>Video</h2>
+             <div id="border">   
+                <a name="video"><h4>En liten video</h4></a>
+                    <video class="video" width="500" height="340" controls>
+                    <source src="pics/trailer_480p.mp4" type="video/mp4">
+                    <source src="pics/trailer_400p.ogg" type="video/ogg">
+                    <object data="pics/trailer_480p.mp4" width="500" height="340">
+                    <embed src="pics/trailer_400p.ogg" width="500" height="340"></object></video>
+                    <h5>Skrivet 2013-09-18</h5>
+                </div>   
+        <h2>Lorem ipsum</h2>
+            <div id="border">
+                <p><img class="bild" src="http://www.fotoakuten.se/albums/userpics/ljusa_stenar.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat lectus eu quam convallis, eu elementum sapien fringilla.
+                Pellentesque ac diam at magna consectetur facilisis. Donec ac sapien in diam aliquet egestas. Mauris vestibulum placerat arcu, vel pellentesque
+                eros placerat id. Etiam vel massa tortor. Quisque velit dolor, imperdiet varius aliquet sed, sodales id orci. Vestibulum rutrum tincidunt augue sit
+                amet auctor. Sed faucibus iaculis nulla, ut facilisis sem accumsan eget.</p>
+                
+                <p>Cras euismod, augue at tincidunt sodales, arcu est fringilla purus, vel pellentesque massa erat ut orci. Aliquam erat volutpat. Sed faucibus dapibus ligula, nec blandit nisl dictum sed.
+                Integer porttitor nunc in odio interdum interdum. Nam vitae arcu sollicitudin, interdum nulla a, mattis lorem. Aenean tincidunt, metus id cursus vestibulum, sapien sapien lobortis lorem, auctor aliquam massa augue vel ligula.
+                Praesent sit amet justo eu erat tincidunt porta. Vestibulum molestie porttitor enim, vitae volutpat dolor porttitor in. Vestibulum congue lectus vel facilisis ornare.
+                Suspendisse venenatis nisi eget neque rhoncus, at pharetra diam porttitor. Fusce diam lacus, dignissim at rhoncus non, hendrerit quis libero. Fusce adipiscing ullamcorper tincidunt. </p>
+                
+                <p>Morbi tincidunt odio in congue convallis. Aenean libero ligula, ullamcorper et lacinia et, mattis non nulla. Nam dictum risus in turpis congue faucibus. Nullam tincidunt suscipit libero ut aliquam.
+                Phasellus eu aliquam ligula. Cras tempus, turpis malesuada porttitor dapibus, tortor augue faucibus ante, et luctus turpis nisi nec urna. Nunc vitae viverra nulla, a pretium quam. Maecenas non auctor tellus.
+                Ut quis lacinia neque. Suspendisse et molestie libero. </p>
+            </div>
+        
+        <h2>Logga</h2>
+            <div id="border">
+                <img src="pics/logo.jpg" alt="logo"/>
+            </div>
+    </div>
 
-<h2 id="#vector">Vectorbild</h2>
-<h4>En vector bild jag har gjort</h4>
-<img src="pics/bird.svg" alt="vector"/>
-<h5>Skrivet 2013-09-18</h5>
-<br />
-
-<h2>Video</h2>
-<a name="video"><h4>En liten video</h4></a>
-<video width="500" height="340" controls>
-<source src="pics/trailer_400p.mp4" type="video/mp4">
-<source src="pics/trailer_400p.ogg" type="video/ogg">
-<object data="pics/trailer_400p.mp4" width="500" height="340">
-<embed src="pics/trailer_400p.ogg" width="500" height="340"></object></video>
-<h5>Skrivet 2013-09-18</h5>
-
-<img src="pics/logo.jpg" alt="logo"/>
+    <div id="footer">
+        <p>Paulinas sida 2013</p>
+    </div>
+</div>
 </body>
 </html>
