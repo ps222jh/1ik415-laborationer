@@ -71,9 +71,9 @@ body {background-color:#33312A;
     display: block; 
     width: auto; 
     height: 100%; 
-    padding-left: 0.25em; 
-    padding-top: 0.25em; 
-    padding-bottom: 0.25em; 
+    padding-left: 4px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
     text-decoration: none;
     border-top: 1px solid #0F0D09; 
     border-right: 1px solid #0F0D09; 
@@ -159,7 +159,4 @@ h5 {font-family: arial;
     color: white;
     font-family: arial;
     font-size: 18px;
-}
-    
-    
 }
