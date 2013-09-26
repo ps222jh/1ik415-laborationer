@@ -1,4 +1,5 @@
 body {background-color:#33312A;
+    background-image: url(http://img1.jurko.net/wall/paper/wallpaper_18650.jpg)
 
 } 
 
@@ -6,7 +7,7 @@ body {background-color:#33312A;
     border: 2px solid black;
     background-color: #9E9782;
     text-align: center;
-    background-image: url(http://hotel-bachkovo.com/images/Wallpapers-room_com___Hardwood_w_Lights_by_zyklophon_1920x1200.jpg); 
+    background-image: url(http://freyafyre.files.wordpress.com/2012/06/black-header.png); 
     background-repeat: repeat;
     width: 1000px;
     float: left;
@@ -14,8 +15,8 @@ body {background-color:#33312A;
 }
 
 #border {
-    border-top: 2px solid #9E9782;
-    border-bottom: 2px solid #9E9782;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     
     
 }
@@ -26,7 +27,7 @@ body {background-color:#33312A;
     float: left;
     background-color: #FFD086;
     padding: 2px;
-    background-image: url(http://fc04.deviantart.net/images/i/2003/46/e/8/old_paper.jpg);
+    background-image: url(http://www.helsinkijazzunderground.com/wp-content/themes/fredriksson-music/images/paper_background.jpg);
     
 }
 
@@ -42,16 +43,16 @@ body {background-color:#33312A;
     background-color: #FFD086;
     width: 1000px;
     text-align: center;
-    background-image: url(http://content.wallpapers-room.com/resolutions/1920x1200/S/Wallpapers-room_com___Silk_Wood_by_mACrO-lOvE_1920x1200.jpg);
+    background-image: url(http://i.imgur.com/2CTj8.jpg);
 }
 
 #container {
     overflow: auto;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: #33312A;
+    background-color: black;
     padding: 10px;
-    background-image: url(http://www.picwals.com/static/wallpaper/2560x1600/hd-wallpapers-dark-brown-wallpaper-full-jakub-nowaczyk-wood-with-2560x1600-wallpaper.jpg); 
+    background-image: url(http://a-l-w.org/pictures/background_content.jpg); 
     background-repeat: repeat;
 }
 
@@ -60,9 +61,9 @@ body {background-color:#33312A;
     padding: 0; 
     width: 200px; 
     list-style-type: none; 
-    font-size: 70%;
+    font-size: 15px;
     font-family: arial;
-    background: #736C58; 
+    background: #63605B; 
     border-bottom: 1px solid #0F0D09;
  
 }
@@ -70,7 +71,7 @@ body {background-color:#33312A;
 #meny a{ 
     display: block; 
     width: auto; 
-    height: 100%; 
+    height: 20px; 
     padding-left: 4px; 
     padding-top: 4px; 
     padding-bottom: 4px; 
@@ -81,11 +82,11 @@ body {background-color:#33312A;
     
 }
  
-#meny a:link{color: #ffffff;}
+#meny a:link{color: white;}
 
-#meny a:visited{color: #ffffff;}
+#meny a:visited{color: white;}
 
-#meny a:hover{background: #F7CF8B;}
+#meny a:hover{background: #D1CABF;}
 
 #meny a:active{background-color: black;}
 
@@ -159,4 +160,9 @@ h5 {font-family: arial;
     color: white;
     font-family: arial;
     font-size: 18px;
+}
+
+.rubrik {
+    color: white;
+    font-family: verdana;
 }
