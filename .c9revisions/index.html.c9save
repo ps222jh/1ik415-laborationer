@@ -42,3 +42,4 @@
 {"ts":1380152554846,"patch":[[{"diffs":[[0,"deo\""],[-1," class=\"video\""],[0,"><h4"]],"start1":1280,"start2":1280,"length1":22,"length2":8},{"diffs":[[0,"controls"],[1," class=\"video\""],[0,">\r\n     "]],"start1":1366,"start2":1366,"length1":16,"length2":30}]],"length":4178,"saved":false}
 {"ts":1380152570306,"patch":[[{"diffs":[[0,"rols"],[-1," class=\"video\""],[0,">\r\n "]],"start1":1370,"start2":1370,"length1":22,"length2":8}]],"length":4164,"saved":false}
 {"ts":1380154813460,"patch":[[{"diffs":[[0,"  <video"],[1," class=\"video\""],[0," width=\""]],"start1":1332,"start2":1332,"length1":16,"length2":30}]],"length":4178,"saved":false}
+{"ts":1380157160695,"patch":[[{"diffs":[[0,"      <p"],[1," class=\"texten\""],[0,">Paulina"]],"start1":4109,"start2":4109,"length1":16,"length2":31}]],"length":4193,"saved":false}

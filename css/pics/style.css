@@ -42,7 +42,7 @@ body {background-color:#33312A;
     background-color: #FFD086;
     width: 1000px;
     text-align: center;
-
+    background-image: url(http://content.wallpapers-room.com/resolutions/1920x1200/S/Wallpapers-room_com___Silk_Wood_by_mACrO-lOvE_1920x1200.jpg);
 }
 
 #container {
@@ -111,6 +111,7 @@ h2 {font-family: arial;
 }
 
 h1 {font-family: arial;
+    text-align: center;
 
 
 }
@@ -152,4 +153,13 @@ h5 {font-family: arial;
 
 .video {
     margin: 50px;
+}
+
+.texten {
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+}
+    
+    
 }
