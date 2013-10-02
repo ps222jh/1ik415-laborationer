@@ -65,28 +65,51 @@ body {background-color:#33312A;
     font-family: arial;
     background: #63605B; 
     border-bottom: 1px solid #0F0D09;
+
  
 }
 
 #meny a{ 
     display: block; 
     width: auto; 
-    height: 20px; 
-    padding-left: 4px; 
-    padding-top: 4px; 
-    padding-bottom: 4px; 
+    height: 24px; 
     text-decoration: none;
     border-top: 1px solid #0F0D09; 
     border-right: 1px solid #0F0D09; 
     border-left: 1px solid #0F0D09;
-    
+    background-image: url(../../pics/okej.png);
+    text-indent: -9999999px;
+    background-repeat: no-repeat;
+    padding-left: 4px; 
+    padding-top: 4px; 
+    padding-bottom: 4px; 
+
 }
+
+#hem {
+    background-position: 0px 5px;}
+#hem:hover {background-position: 0 -43px;}
+ 
+#labbor {
+    background-position: 0px -90px;}
+#labbor:hover {background-position: 0px -138px;}
+
+#presen {
+    background-position: 0px -190px;}
+#presen:hover {background-position: 0px -238px;}
+
+#konta {
+    background-position: 0px -283px;}
+#konta:hover {background-position: 0px -331px;}
+ 
+ 
+ 
+ 
+ 
  
 #meny a:link{color: white;}
 
 #meny a:visited{color: white;}
-
-#meny a:hover{background: #D1CABF;}
 
 #meny a:active{background-color: black;}
 
@@ -165,4 +188,23 @@ h5 {font-family: arial;
 .rubrik {
     color: white;
     font-family: verdana;
+}
+
+#kontaktform fieldset { 
+    width: 400px; 
+    padding: 20px 0px 20px 50px; 
+    border: 1px solid #99cc00; 
+    background-image: url(http://b.dryicons.com/files/graphics_previews/wavy_green_background.jpg); 
+    }
+
+#kontaktform legend { 
+    background-color: #e2ff8c;
+    padding: 2px 2px 2px 3px; 
+    margin-left: -30px; 
+    letter-spacing: 3px; 
+    border: 1px solid #99cc00; 
+}
+
+.checkboxen { 
+    background-color: #99cc00; 
 }

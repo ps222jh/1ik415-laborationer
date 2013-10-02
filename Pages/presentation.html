@@ -3,33 +3,48 @@
 <head>
 <meta charset="utf-8"/>
 <title>Min sida</title>
+<link rel="stylesheet" href="../css/pics/style.css" media="screen"/>
+<link rel="stylesheet" href="../css/pics/print.css" media="print">
 </head>
-<body><h1>Presentation</h1>
+<body>
+<div id="container">
+        <div id="header"><h1>Presentation</h1> </div>
 
-<!--Meny start-->
-<ul>
-    <li><a href="../index.html">Start</a></li>
-    <li><a href="Laborationer.html">Laborationer</a></li>
-    <li><a href="presentation.html">Presentation</a></li>
-    <li><a href="Kontakt.html">Kontakt</a></li>
-</ul>
-<!--Meny end-->
+<!--Navigation börjar-->
+    <div id="navigation">
+        <ul id="meny">
+    <li><a id="hem" href="../index.html">Start</a></li>
+    <li><a id="labbor" href="Laborationer.html">Laborationer</a></li>
+    <li><a id="presen" href="presentation.html" class="active">Presentation</a></li>
+    <li><a id="konta" href="Kontakt.html">Kontakt</a></li>
+ </ul>
+    </div>
+<!--Navigation slutar-->
 
+<!--content börjar-->
+    <div id="content">
 <h2>Om mig</h2>
+<div id="border">
 <h4>Hej jag heter Paulina Sedzinski och detta är min sida som jag ska utveckla under kursens gång. Jag spenderar en stor del av min tid vid datorn och är även intresserad av webbprogrammering.
 Därför valde jag att börja studera just webbprogrammering på Linneuniversitetet.
 </h4>
 
 <p><h4>För att lära känna mig lite bättre så tänkte jag berätta lite mer om mig själv.</h4></p>
+</div>
 
 <dl>
     <dt><h2>Intressen</h2></dt>
-        <dd>Vindsurfing</dd>
-        <dd>Umgås med vänner</dd>
-        <dd>Träna</dd>
-    </dl>
-
+        <div id="border">
+        <br />
+            <dd>Vindsurfing</dd>
+            <dd>Umgås med vänner</dd>
+            <dd>Träna</dd>
+            <br />
+        </dl>
+       
+    
 <h2>Tidigare utbildning</h2>
+<div id="border">
 <ul>
     <li>Grundskola
         <ul>
@@ -48,9 +63,11 @@ Därför valde jag att börja studera just webbprogrammering på Linneuniversite
     <li>Rosens blommor, Bromölla</li>
     <li>Everöds flygplats</li>
 </ul></ul>
+</div>
 <br />
 
 <h2>Sidor jag gillar</h2>
+<div id="border">
 
 <ol>
     <li><p><a href="http://www.ebay.com">Ebay</a></p></li>
@@ -59,7 +76,15 @@ Därför valde jag att börja studera just webbprogrammering på Linneuniversite
     <li><p><a href="http://www.google.se">Google</a></p></li>
     <li><p><a href="http://www.aftonbladet.se">Aftonbladet</a></p></li>
 </ol>
+</div>
 
 <!--Bild-->
 <a name="bild"><img src="../pics/bild.jpg" alt="bild" width="530" height="300" style="margin: 30px 0px 0px 0px; float: left;"></a>
+</div>
+<!--content slutar-->
+<!--footer-->
+<div id="footer">
+        <p class="texten">Paulinas sida 2013</p>
+    </div>
+<!--footer slutar-->
 </html>
