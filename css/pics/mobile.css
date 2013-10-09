@@ -1,3 +1,12 @@
+@media only screen and (max-width: 480px) {  
+    
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.0), only screen and (min-resolution: 320dpi) {
+    
+}
+
+
 body {background-color:#33312A;
     background-image: url(http://img1.jurko.net/wall/paper/wallpaper_18650.jpg)
 
@@ -9,7 +18,7 @@ body {background-color:#33312A;
     text-align: center;
     background-image: url(http://freyafyre.files.wordpress.com/2012/06/black-header.png); 
     background-repeat: repeat;
-    width: 1000px;
+    width: 320px;
     float: left;
 
 }
@@ -23,17 +32,16 @@ body {background-color:#33312A;
 
 #content {
     border: 2px solid black;
-    width: 600px;
+    width: 320px;
     float: left;
-    background-color: #FFD086;
-    padding: 2px;
-    background-image: url(http://www.helsinkijazzunderground.com/wp-content/themes/fredriksson-music/images/paper_background.jpg);
-    
+    background-color: #5C5959;
+    padding: 0px;
+    background-image: url(http://www.porcelaingres.com/img/prodotti/collezioni/just_grey_light_grey.jpg);
 }
 
 #navigation {
     border: 2px solid black;
-    width: 200px;
+    width: 320px;
     float: left;
 }
 
@@ -41,17 +49,17 @@ body {background-color:#33312A;
     border: 2px solid black;
     float: left;
     background-color: #FFD086;
-    width: 1000px;
+    width: 320px;
     text-align: center;
     background-image: url(http://i.imgur.com/2CTj8.jpg);
 }
 
 #container {
     overflow: auto;
-    max-width: 1000px;
+    max-width: 330px;
     margin: 0 auto;
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     background-image: url(http://a-l-w.org/pictures/background_content.jpg); 
     background-repeat: repeat;
 }
@@ -59,7 +67,7 @@ body {background-color:#33312A;
 #meny {
     margin: 0; 
     padding: 0; 
-    width: 200px; 
+    width: 320px; 
     list-style-type: none; 
     font-size: 15px;
     font-family: arial;
@@ -123,6 +131,7 @@ body {background-color:#33312A;
 }
 
 h4 {font-family: arial;
+    font-size: 15px;
 
 }
 
@@ -132,6 +141,7 @@ h2 {font-family: arial;
     background-repeat: no-repeat;
     background-position: 10% 20%;
     background-size: 20px 20px;
+    font-size: 17px;
 }
 
 h1 {font-family: arial;
@@ -144,6 +154,20 @@ h5 {font-family: arial;
     font-style: italic;
     text-align: right;
 
+}
+
+p {font-size: 12px;
+
+}
+
+img {max-width: 100%; 
+}
+
+video {max-width: 200px;}
+
+#bild a{
+    width: 50px;
+    height: 60px;
 }
 
 .bild {
@@ -159,7 +183,6 @@ h5 {font-family: arial;
     border-collapse: collapse;
     font-family: arial;
     margin: 0 auto;
-
 
 }
 
@@ -188,23 +211,39 @@ h5 {font-family: arial;
 .rubrik {
     color: white;
     font-family: verdana;
+    font-size: 20px;
 }
 
-#kontaktform fieldset { 
-    width: 400px; 
-    padding: 20px 0px 20px 50px; 
-    border: 1px solid #99cc00; 
-    background-image: url(http://b.dryicons.com/files/graphics_previews/wavy_green_background.jpg); 
-    }
 
-#kontaktform legend { 
-    background-color: #e2ff8c;
-    padding: 2px 2px; 
-    margin-left: -30px; 
-    letter-spacing: 3px; 
-    border: 1px solid #99cc00; 
-}
+input, textarea, select {
+   border: 1px solid #555;
+   padding: 2px;
+   font-size: 15px;
+   width: 150px;
+   background: #fff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+   -webkit-appearance: none;
+   -webkit-box-shadow: 1px 1px 1px #fff;
+   -webkit-border-radius: 0.5em;
+   margin: o;
+ }
+ 
+ input[type=checkbox],
+ input[type=radio] {
+   display: inline-block;
+   font-size: 15px;
+   line-height: 1em;
+   margin: 0 0.25em 0 0;
+   padding: 0;
+   width: 1.25em;
+   height: 1.25em;
+   -webkit-border-radius: 0.25em;
+   vertical-align: text-top;
+ }
 
-.checkboxen { 
-    background-color: #99cc00; 
+ input[type=radio] {
+    -webkit-border-radius: 2em; /* Make radios round */
+  }
+
+
 }

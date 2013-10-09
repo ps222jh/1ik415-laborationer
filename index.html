@@ -1,210 +1,93 @@
-body {background-color:#33312A;
-    background-image: url(http://img1.jurko.net/wall/paper/wallpaper_18650.jpg)
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Startsida</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/pics/style.css" media="screen"/>
+<link rel="stylesheet" href="css/pics/print.css" media="print">
+<link rel="stylesheet" mdia="(max-width: 480px)" href="css/pics/mobile.css" />
+<link rel="shortcut icon" href="../pics/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../pics/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="pics/apple-touch-icon.png" />
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 class="rubrik">Paulinas sida</h1>
+        </div>
+<!--Navigation börjar-->    
+    <div id="navigation">
+        <ul id="meny">
+            <li><a id="hem" href="index.html" class="active">Start</a></li>
+            <li><a id="labbor" href="Pages/Laborationer.html">Laborationer</a></li>
+            <li><a id="presen" href="Pages/presentation.html">Presentation</a></li>
+            <li><a id="konta" href="Pages/Kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+<!--Navigation slutar-->
+<!--content börjar-->
+    <div id="content">
+        <h1>Kursblogg</h1>
+            <p><h2>Mitt första inlägg</h2></p>
+            <div id="border">
+                <h4>Hej detta är min sida</h4>
+                <h5>Skrivet 2013-09-10</h5>
+            </div>
+        <br />
 
-} 
-
-#header {
-    border: 2px solid black;
-    background-color: #9E9782;
-    text-align: center;
-    background-image: url(http://freyafyre.files.wordpress.com/2012/06/black-header.png); 
-    background-repeat: repeat;
-    width: 1000px;
-    float: left;
-
-}
-
-#border {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    
-    
-}
-
-#content {
-    border: 2px solid black;
-    width: 600px;
-    float: left;
-    background-color: #FFD086;
-    padding: 2px;
-    background-image: url(http://www.helsinkijazzunderground.com/wp-content/themes/fredriksson-music/images/paper_background.jpg);
-    
-}
-
-#navigation {
-    border: 2px solid black;
-    width: 200px;
-    float: left;
-}
-
-#footer {
-    border: 2px solid black;
-    float: left;
-    background-color: #FFD086;
-    width: 1000px;
-    text-align: center;
-    background-image: url(http://i.imgur.com/2CTj8.jpg);
-}
-
-#container {
-    overflow: auto;
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: black;
-    padding: 10px;
-    background-image: url(http://a-l-w.org/pictures/background_content.jpg); 
-    background-repeat: repeat;
-}
-
-#meny {
-    margin: 0; 
-    padding: 0; 
-    width: 200px; 
-    list-style-type: none; 
-    font-size: 15px;
-    font-family: arial;
-    background: #63605B; 
-    border-bottom: 1px solid #0F0D09;
-
- 
-}
-
-#meny a{ 
-    display: block; 
-    width: auto; 
-    height: 24px; 
-    text-decoration: none;
-    border-top: 1px solid #0F0D09; 
-    border-right: 1px solid #0F0D09; 
-    border-left: 1px solid #0F0D09;
-    background-image: url(../../pics/okej.png);
-    text-indent: -9999999px;
-    background-repeat: no-repeat;
-    padding-left: 4px; 
-    padding-top: 4px; 
-    padding-bottom: 4px; 
-
-}
-
-#hem {
-    background-position: 0px 5px;}
-#hem:hover {background-position: 0 -43px;}
- 
-#labbor {
-    background-position: 0px -90px;}
-#labbor:hover {background-position: 0px -138px;}
-
-#presen {
-    background-position: 0px -190px;}
-#presen:hover {background-position: 0px -238px;}
-
-#konta {
-    background-position: 0px -283px;}
-#konta:hover {background-position: 0px -331px;}
- 
- 
- 
- 
- 
- 
-#meny a:link{color: white;}
-
-#meny a:visited{color: white;}
-
-#meny a:active{background-color: black;}
-
-#meny a:focus{color: green;
-
-}
-
-.active {
-        background-color: black;
-        text-align: right;
-}
-
-h4 {font-family: arial;
-
-}
-
-h2 {font-family: arial;
-    text-align: center;
-    background-image: url(http://graphichive.net/uploaded/t_1313321102.jpg); 
-    background-repeat: no-repeat;
-    background-position: 10% 20%;
-    background-size: 20px 20px;
-}
-
-h1 {font-family: arial;
-    text-align: center;
-
-
-}
-
-h5 {font-family: arial;
-    font-style: italic;
-    text-align: right;
-
-}
-
-.bild {
-    width: 150px;
-    height: 160px;
-    float: right;
-    border: 5px solid black;
-}
-
-.table {
-    background-color: #93FF4A;
-    border: 1px solid black;
-    border-collapse: collapse;
-    font-family: arial;
-    margin: 0 auto;
-
-
-}
-
-.row {
-    background-color: #E7FFC8;
-}
- 
-.cell {
-    background-color: #CEFF98;
-}
-
-.cel11 {
-    background-color: #E7FFC8;
-}
-
-.video {
-    margin: 50px;
-}
-
-.texten {
-    color: white;
-    font-family: arial;
-    font-size: 18px;
-}
-
-.rubrik {
-    color: white;
-    font-family: verdana;
-}
-
-#kontaktform fieldset { 
-    width: 400px; 
-    padding: 20px 0px 20px 50px; 
-    border: 1px solid #99cc00; 
-    background-image: url(http://b.dryicons.com/files/graphics_previews/wavy_green_background.jpg); 
-    }
-
-#kontaktform legend { 
-    background-color: #e2ff8c;
-    padding: 2px 2px; 
-    margin-left: -30px; 
-    letter-spacing: 3px; 
-    border: 1px solid #99cc00; 
-}
-
-.checkboxen { 
-    background-color: #99cc00; 
-}
+        
+            <h2 id="#vector">Vectorbild</h2>
+                <div id="border">
+                    <h4>En vector bild jag har gjort</h4>
+                    <img src="pics/bird.svg" alt="vector"/>
+                    <h5>Skrivet 2013-09-18</h5>
+                </div>
+        <br />
+        
+        <h2>Video</h2>
+             <div id="border">   
+                <a name="video"><h4>En liten video</h4></a>
+                    <video class="video" width="500" height="340" controls>
+                    <source src="pics/trailer_480p.mp4" type="video/mp4">
+                    <source src="pics/trailer_400p.ogg" type="video/ogg">
+                    <object data="pics/trailer_480p.mp4" width="500" height="340">
+                    <embed src="pics/trailer_400p.ogg" width="500" height="340"></object></video>
+                    <h5>Skrivet 2013-09-18</h5>
+                </div>   
+        <h2>Lorem ipsum</h2>
+            <div id="border">
+                <p><img class="bild" src="http://www.fotoakuten.se/albums/userpics/ljusa_stenar.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat lectus eu quam convallis, eu elementum sapien fringilla.
+                Pellentesque ac diam at magna consectetur facilisis. Donec ac sapien in diam aliquet egestas. Mauris vestibulum placerat arcu, vel pellentesque
+                eros placerat id. Etiam vel massa tortor. Quisque velit dolor, imperdiet varius aliquet sed, sodales id orci. Vestibulum rutrum tincidunt augue sit
+                amet auctor. Sed faucibus iaculis nulla, ut facilisis sem accumsan eget.</p>
+                
+                <p>Cras euismod, augue at tincidunt sodales, arcu est fringilla purus, vel pellentesque massa erat ut orci. Aliquam erat volutpat. Sed faucibus dapibus ligula, nec blandit nisl dictum sed.
+                Integer porttitor nunc in odio interdum interdum. Nam vitae arcu sollicitudin, interdum nulla a, mattis lorem. Aenean tincidunt, metus id cursus vestibulum, sapien sapien lobortis lorem, auctor aliquam massa augue vel ligula.
+                Praesent sit amet justo eu erat tincidunt porta. Vestibulum molestie porttitor enim, vitae volutpat dolor porttitor in. Vestibulum congue lectus vel facilisis ornare.
+                Suspendisse venenatis nisi eget neque rhoncus, at pharetra diam porttitor. Fusce diam lacus, dignissim at rhoncus non, hendrerit quis libero. Fusce adipiscing ullamcorper tincidunt. </p>
+                
+                <p>Morbi tincidunt odio in congue convallis. Aenean libero ligula, ullamcorper et lacinia et, mattis non nulla. Nam dictum risus in turpis congue faucibus. Nullam tincidunt suscipit libero ut aliquam.
+                Phasellus eu aliquam ligula. Cras tempus, turpis malesuada porttitor dapibus, tortor augue faucibus ante, et luctus turpis nisi nec urna. Nunc vitae viverra nulla, a pretium quam. Maecenas non auctor tellus.
+                Ut quis lacinia neque. Suspendisse et molestie libero. </p>
+            </div>
+        
+        <h2>Logga</h2>
+            <div id="border">
+                <img src="pics/logo.jpg" alt="logo"/>
+            </div>
+        <h2>Copycat</h2>
+            <div id="border">
+                <h4><a href="https://c9.io/ps222jh/uppgift-3-3/workspace/index.html">Här</a> har jag försökt att återskapa en hemsida som fanns i exemplet i uppgift 3.
+                </h4>
+            </div>
+    </div>
+<!--content slutar-->
+<!--footer-->
+    <div id="footer">
+        <p class="texten">Paulinas sida 2013</p>
+    </div>
+<!--footer slutar-->
+</div>
+</body>
+</html>

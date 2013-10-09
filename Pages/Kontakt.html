@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Kontakt</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/pics/style.css" media="screen"/>
+<link rel="stylesheet" href="../css/pics/print.css" media="print">
+<link rel="stylesheet" media="(max-width: 480px)" href="../css/pics/mobile.css" />
+<link rel="shortcut icon" href="../pics/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../pics/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="../pics/apple-touch-icon.png" />
+</head>
+<body>
+<div id="container">
+        <div id="header">
+            <h1 class="rubrik">Kontakt</h1></div>
+
+<!--Navigation börjar-->
+    <div id="navigation">
+        <ul id="meny">
+    <li><a id="hem" href="../index.html">Start</a></li>
+    <li><a id="labbor" href="Laborationer.html">Laborationer</a></li>
+    <li><a id="presen" href="presentation.html">Presentation</a></li>
+    <li><a id="konta" href="Kontakt.html" class="active">Kontakt</a></li>
+</ul>
+    </div>
+<!--Navigation slutar-->
+
+<!--content börjar-->
+    <div id="content">
+    
+<!--Formulär-->
+<form name="kontaktform" id="kontaktform" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"
+method="post/get">
+    <fieldset>
+        <legend>Fråga</legend>
+        Ärendetyp
+        <select>
+            <option>Annat</option>
+            <option selected>Fråga</option>
+            <option>Rådgivning</option>
+        </select>
+            <ul>
+                <li>
+                <label for="name">Rubrik:</label>
+                <input type="text" name="fråga" id="name" value="Vad göra?"
+                size="30" maxlength="50" />
+                </li>
+                <li>
+                <label for="kommentar">Fråga:</label>
+                <textarea name="kommentar" id="kommentar" rows="3"
+                cols="25">Skriv här</textarea></li>
+            </ul>
+    </fieldset>
+    <fieldset>
+    <legend>Information om dig</legend>
+        <ul>
+            <li>Kontakta mig via mail
+            <input type="checkbox" checked="checked" class="checkboxen" /></li>
+            <li>Kontakta mig via telefon
+            <input type="checkbox" class="checkboxen" />
+            <input type="hidden"  /></li>
+        </ul>
+    </fieldset>
+    <input type="submit" value="Skicka frågan"/>
+</form>
+<!--Formulär slut-->
+</div>
+<!--content slutar-->
+
+<!--footer-->
+<div id="footer">
+        <p class="texten">Paulinas sida 2013</p>
+    </div>
+<!--footer slutar-->
+
+</body>
+</html>
