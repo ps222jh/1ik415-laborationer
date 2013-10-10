@@ -6,7 +6,6 @@
     
 }
 
-
 body {background-color:#33312A;
     background-image: url(http://img1.jurko.net/wall/paper/wallpaper_18650.jpg)
 
@@ -217,19 +216,19 @@ video {max-width: 200px;}
 
 input, textarea, select {
    border: 1px solid #555;
-   padding: 2px;
+   padding: 7px;
    font-size: 15px;
    width: 150px;
    background: #fff;
    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
-   -webkit-appearance: none;
+    -webkit-appearance: none;
    -webkit-box-shadow: 1px 1px 1px #fff;
    -webkit-border-radius: 0.5em;
-   margin: o;
- }
+   margin: 0;
+}
  
- input[type=checkbox],
- input[type=radio] {
+input[type=checkbox],
+input[type=radio] {
    display: inline-block;
    font-size: 15px;
    line-height: 1em;
@@ -239,11 +238,16 @@ input, textarea, select {
    height: 1.25em;
    -webkit-border-radius: 0.25em;
    vertical-align: text-top;
- }
+  
+}
 
- input[type=radio] {
-    -webkit-border-radius: 2em; /* Make radios round */
-  }
+input[type=radio] {
+    -webkit-border-radius: 2em;
 
+}
+  
+input[type=checkbox]:checked {
+   background: url("data:image/png,%89PNG[...]") no-repeat center center;
+   -webkit-background-size: 28px 28px;
 
 }
