@@ -1,6 +1,8 @@
 body
 {
 background-color: #A38B70;
+background-image: url(http://www.wallpaperfull.com/stockimage/wood-textures-desktop-free-wallpaper.jpg);
+background-repeat: repeat;
 }
 
 .bilder a
@@ -13,9 +15,9 @@ background-color: #A38B70;
 	padding: 10px 10px 25px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
-	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 4px 6px black;
+	-moz-box-shadow: 0 4px 6px ;
+	box-shadow: 0 4px 6px black;
 	-webkit-transition: all .15s linear;
 	-moz-transition: all .15s linear;
 	transition: all .15s linear;
@@ -29,7 +31,7 @@ background-color: #A38B70;
 	content: attr(title);
 	position: relative;
 	top:15px;
-	font-family: Georgia,serif;
+	font-family: Georgia;
 	font-style: italic;
 }
 
@@ -78,7 +80,7 @@ background-color: #A38B70;
 h1 {
 		position: top;
 		text-align: center;
-		font-family: Georgia,serif;
+		font-family: Georgia;
 	    font-style: italic;
 	    color: white;
 	    font-size: 50px;

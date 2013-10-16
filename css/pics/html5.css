@@ -47,7 +47,7 @@ section {
     overflow: auto;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: black;
+    background-color: #191917;
     padding: 10px;
     background-image: url(); 
     background-repeat: repeat;
@@ -56,15 +56,23 @@ section {
 #posts {
     overflow: auto;
     max-width: 600px;
+    height: 90px;
     margin: 0 auto;
-    background-color: gray;
+    background-color: #FCF6E4;
     padding: 10px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 #kommenttext {
-    color: white;
+    color: black;
+    background-image: none;
+    font-style: italic;
+    font-size: 21px;
+    text-align: left;
+    border-bottom: 2px dotted black;
 }
+
+
 
 article {
     border-top: 2px solid black;

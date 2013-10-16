@@ -197,7 +197,8 @@ h5 {font-family: arial;
     width: 400px; 
     padding: 20px 0px 20px 50px; 
     border: 1px solid #99cc00; 
-    background-image: url(http://b.dryicons.com/files/graphics_previews/wavy_green_background.jpg); 
+    background-image: url(http://b.dryicons.com/files/graphics_previews/wavy_green_background.jpg);
+    margin: 0 auto;
     }
 
 #kontaktform legend { 
@@ -211,3 +212,6 @@ h5 {font-family: arial;
 .checkboxen { 
     background-color: #99cc00; 
 }
+
+#hcard-Paulina-Sedzinski{
+    text-align: center;}
