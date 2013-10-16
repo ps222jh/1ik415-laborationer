@@ -1,0 +1,92 @@
+body
+{
+background-color: #A38B70;
+}
+
+.bilder a
+{
+	background: white;
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+    position:relative;
+}
+
+.bilder a:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+	font-family: Georgia,serif;
+	font-style: italic;
+}
+
+.bilder img { 
+	display: block; 
+	width: inherit; 
+}
+
+.bilder a:nth-child(2n)
+{
+	-webkit-transform: rotate(4deg);  
+	-moz-transform: rotate(4deg); 
+	transform: rotate(4deg); 
+}
+.bilder a:nth-child(3n) { 
+	-webkit-transform: rotate(-24deg);  
+	-moz-transform: rotate(-24deg); 
+	transform: rotate(-24deg); 
+}
+.bilder a:nth-child(4n)
+{
+	-webkit-transform: rotate(14deg);  
+	-moz-transform: rotate(14deg); 
+	transform: rotate(14deg); 
+}
+.bilder a:nth-child(5n)
+{
+	-webkit-transform: rotate(-18deg);  
+	-moz-transform: rotate(-18deg); 
+	transform: rotate(-18deg); 
+}
+
+.bilder a:hover{
+	-webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+	-webkit-transform: scale(1.5); 
+	-moz-transform: scale(1.5);
+    transform: scale(1.5);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+h1 {
+		position: top;
+		text-align: center;
+		font-family: Georgia,serif;
+	    font-style: italic;
+	    color: white;
+	    font-size: 50px;
+}
+		
+.bilder {
+		position: relative;
+		margin: 0 auto;
+		max-width: 1400px;
+ }
+	

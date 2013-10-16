@@ -6,7 +6,7 @@ body {background-color:#33312A;
 
 } 
 
-#header {
+header {
     border: 2px solid black;
     background-color: #9E9782;
     text-align: center;
@@ -14,17 +14,11 @@ body {background-color:#33312A;
     background-repeat: repeat;
     width: 1000px;
     float: left;
-
-}
-
-#border {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
     
     
 }
 
-#content {
+main {
     border: 2px solid black;
     width: 600px;
     float: left;
@@ -34,13 +28,13 @@ body {background-color:#33312A;
     
 }
 
-#navigation {
+nav {
     border: 2px solid black;
     width: 200px;
     float: left;
 }
 
-#footer {
+footer {
     border: 2px solid black;
     float: left;
     background-color: #FFD086;
@@ -49,16 +43,33 @@ body {background-color:#33312A;
     background-image: url(http://i.imgur.com/2CTj8.jpg);
 }
 
-#container {
+section {
     overflow: auto;
     max-width: 1000px;
     margin: 0 auto;
     background-color: black;
     padding: 10px;
-    background-image: url(http://a-l-w.org/pictures/background_content.jpg); 
+    background-image: url(); 
     background-repeat: repeat;
 }
 
+#posts {
+    overflow: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#kommenttext {
+    color: white;
+}
+
+article {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
 #meny {
     margin: 0; 
     padding: 0; 

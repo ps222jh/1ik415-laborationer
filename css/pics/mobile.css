@@ -1,11 +1,3 @@
-@media only screen and (max-width: 480px) {  
-    
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.0), only screen and (min-resolution: 320dpi) {
-    
-}
-
 body {background-color:#33312A;
     background-image: url(http://img1.jurko.net/wall/paper/wallpaper_18650.jpg)
 
@@ -225,6 +217,7 @@ input, textarea, select {
     -webkit-box-shadow: 1px 1px 1px #fff;
     -webkit-border-radius: 8px;
    margin: 0;
+   display: block;
 }
  
 input[type=checkbox],

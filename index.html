@@ -4,49 +4,59 @@
 <meta charset="utf-8"/>
 <title>Startsida</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/pics/style.css" media="screen"/>
-<link rel="stylesheet" href="css/pics/print.css" media="print">
-<link rel="stylesheet" media="(max-width: 480px)" href="css/pics/mobile.css" />
+<link rel="stylesheet" href="css/pics/html5.css" media="screen"/>
 <link rel="shortcut icon" href="../pics/favicon.ico" type="image/x-icon">
 <link rel="icon" href="../pics/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="pics/apple-touch-icon.png" />
 </head>
 <body>
-    <div id="container">
-        <div id="header">
+    <section>
+        <header>
             <h1 class="rubrik">Paulinas sida</h1>
-        </div>
+        </header>
+        
 <!--Navigation börjar-->    
-    <div id="navigation">
+    <nav>
         <ul id="meny">
             <li><a id="hem" href="index.html" class="active">Start</a></li>
             <li><a id="labbor" href="Pages/Laborationer.html">Laborationer</a></li>
             <li><a id="presen" href="Pages/presentation.html">Presentation</a></li>
             <li><a id="konta" href="Pages/Kontakt.html">Kontakt</a></li>
         </ul>
-    </div>
+    </nav>
 <!--Navigation slutar-->
 <!--content börjar-->
-    <div id="content">
+    <main>
         <h1>Kursblogg</h1>
             <p><h2>Mitt första inlägg</h2></p>
-            <div id="border">
+            <article>
                 <h4>Hej detta är min sida</h4>
                 <h5>Skrivet 2013-09-10</h5>
-            </div>
+            </article>
         <br />
 
         
             <h2 id="#vector">Vectorbild</h2>
-                <div id="border">
+                <article>
                     <h4>En vector bild jag har gjort</h4>
                     <img src="pics/bird.svg" alt="vector"/>
                     <h5>Skrivet 2013-09-18</h5>
-                </div>
+                </article>
+
+<section id="posts"> 
+    <h2 id="kommenttext">Red Delicious</h2>
+    <p id="kommenttext">These bright red apples are the most common found in many supermarkets...</p>
+ </section>
+
+ <section id="posts">
+    <h2 id="kommenttext">Granny Smith</h2>
+    <p id="kommenttext">These juicy, green apples make a great filling for apple pies...</p>
+  </section>
+    
         <br />
         
         <h2>Video</h2>
-             <div id="border">   
+             <article>   
                 <a name="video"><h4>En liten video</h4></a>
                     <video class="video" width="500" height="340" controls>
                     <source src="pics/trailer_480p.mp4" type="video/mp4">
@@ -54,9 +64,10 @@
                     <object data="pics/trailer_480p.mp4" width="500" height="340">
                     <embed src="pics/trailer_400p.ogg" width="500" height="340"></object></video>
                     <h5>Skrivet 2013-09-18</h5>
-                </div>   
+                </article> 
+                
         <h2>Lorem ipsum</h2>
-            <div id="border">
+            <article>
                 <p><img class="bild" src="http://www.fotoakuten.se/albums/userpics/ljusa_stenar.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat lectus eu quam convallis, eu elementum sapien fringilla.
                 Pellentesque ac diam at magna consectetur facilisis. Donec ac sapien in diam aliquet egestas. Mauris vestibulum placerat arcu, vel pellentesque
                 eros placerat id. Etiam vel massa tortor. Quisque velit dolor, imperdiet varius aliquet sed, sodales id orci. Vestibulum rutrum tincidunt augue sit
@@ -70,29 +81,31 @@
                 <p>Morbi tincidunt odio in congue convallis. Aenean libero ligula, ullamcorper et lacinia et, mattis non nulla. Nam dictum risus in turpis congue faucibus. Nullam tincidunt suscipit libero ut aliquam.
                 Phasellus eu aliquam ligula. Cras tempus, turpis malesuada porttitor dapibus, tortor augue faucibus ante, et luctus turpis nisi nec urna. Nunc vitae viverra nulla, a pretium quam. Maecenas non auctor tellus.
                 Ut quis lacinia neque. Suspendisse et molestie libero. </p>
-            </div>
+            </article>
         
         <h2>Logga</h2>
-            <div id="border">
+            <article>
                 <img src="pics/logo.jpg" alt="logo"/>
-            </div>
+            </article>
+            
         <h2>Copycat</h2>
-            <div id="border">
+            <article>
                 <h4><a href="https://c9.io/ps222jh/uppgift-3-3/workspace/index.html">Här</a> har jag försökt att återskapa en hemsida som fanns i exemplet i uppgift 3.
                 </h4>
-            </div>
+            </article>
+            
         <h2>Mobil-sida</h2>
-            <div id="border">
+            <article>
                 <h4>Jag har gjort en version av min sida anpassad för mobiler. Menyn ligger längst upp, då jag tycker den är bäst tillgänglig där, jag har även gjort knapparna större. Jag har försökt hålla det så enkelt som möjligt</h4>
                 <img src="pics/mobil.png" width=300px alt="mobil"/>
-            </div>
-    </div>
+            </article>
+    </main>
 <!--content slutar-->
 <!--footer-->
-    <div id="footer">
+    <footer>
         <p class="texten">Paulinas sida 2013</p>
-    </div>
+    </footer>
 <!--footer slutar-->
-</div>
+</section>
 </body>
 </html>
