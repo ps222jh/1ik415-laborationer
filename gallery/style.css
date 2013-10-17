@@ -72,9 +72,9 @@ background-repeat: repeat;
 	-moz-transform: scale(1.5);
     transform: scale(1.5);
 	z-index:10;
-	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
-    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+	-webkit-box-shadow: 0 10px 20px black;
+	-moz-box-shadow: 0 10px 20px black);
+    box-shadow: 0 10px 20px black;
 }
 
 h1 {
